@@ -1,0 +1,35 @@
+Normal
+{'status': 'play', 'position': 0, 'title': 'Sound & Color', 'artist': 'Alabama Shakes', 'album': 'Sound & Color', 'albumart': '/albumart?cacheid=356&web=Alabama%20Shakes/Sound%20%26%20Color/extralarge&path=%2Fmnt%2FNAS%2FThe_Vault%2FAlabama%20Shakes%2FSound%20%26%20Color&metadata=false', 'uri': 'music-library/NAS/The_Vault/Alabama Shakes/Sound & Color/01 Sound & Color.flac', 'trackType': 'flac', 'seek': 6571, 'duration': 183, 'samplerate': '44.1 kHz', 'bitdepth': '16 bit', 'channels': 2, 'random': None, 'repeat': None, 'repeatSingle': False, 'consume': False, 'volume': '80', 'dbVolume': None, 'disableVolumeControl': False, 'mute': False, 'stream': 'flac', 'updatedb': False, 'volatile': False, 'service': 'mpd'}
+Player State:  {'status': 'play', 'position': 0, 'title': 'Sound & Color', 'artist': 'Alabama Shakes', 'album': 'Sound & Color', 'albumart': '/albumart?cacheid=356&web=Alabama%20Shakes/Sound%20%26%20Color/extralarge&path=%2Fmnt%2FNAS%2FThe_Vault%2FAlabama%20Shakes%2FSound%20%26%20Color&metadata=false', 'uri': 'music-library/NAS/The_Vault/Alabama Shakes/Sound & Color/01 Sound & Color.flac', 'trackType': 'flac', 'seek': 6571, 'duration': 183, 'samplerate': '44.1 kHz', 'bitdepth': '16 bit', 'channels': 2, 'random': None, 'repeat': None, 'repeatSingle': False, 'consume': False, 'volume': '80', 'dbVolume': None, 'disableVolumeControl': False, 'mute': False, 'stream': 'flac', 'updatedb': False, 'volatile': False, 'service': 'mpd'}
+Player State:  {'status': 'pause', 'position': 0, 'title': 'Sound & Color', 'artist': 'Alabama Shakes', 'album': 'Sound & Color', 'albumart': '/albumart?cacheid=356&web=Alabama%20Shakes/Sound%20%26%20Color/extralarge&path=%2Fmnt%2FNAS%2FThe_Vault%2FAlabama%20Shakes%2FSound%20%26%20Color&metadata=false', 'uri': 'music-library/NAS/The_Vault/Alabama Shakes/Sound & Color/01 Sound & Color.flac', 'trackType': 'flac', 'seek': 13334, 'duration': 183, 'samplerate': '44.1 kHz', 'bitdepth': '16 bit', 'channels': 2, 'random': None, 'repeat': None, 'repeatSingle': False, 'consume': False, 'volume': '80', 'dbVolume': None, 'disableVolumeControl': False, 'mute': False, 'stream': 'flac', 'updatedb': False, 'volatile': False, 'service': 'mpd'}
+
+Spotify
+{'status': 'play', 'title': 'Move On', 'artist': 'Grant, Emily Vaughn', 'album': 'Move On', 'albumart': 'https://i.scdn.co/image/ab67616d0000b273e79b74e5b86eea9c41710ff1', 'uri': 'spotify:track:5jnoK2o5jY46qhPR30RepX', 'trackType': 'spotify', 'seek': 28026, 'duration': 183, 'samplerate': '44.1 KHz', 'bitdepth': '16 bit', 'channels': 2, 'consume': False, 'volume': 80, 'dbVolume': None, 'mute': False, 'stream': False, 'updatedb': False, 'volatile': True, 'service': 'volspotconnect2'}
+
+
+
+http://192.168.1.81:32469/object/6098958eaadc73fd40b7/file.mp3;
+
+http-get:*:video/mpeg:*,http-get:*:video/mp4:*,http-get:*:video/vnd.dlna.mpeg-tts:*,http-get:*:video/avi:*,http-get:*:video/x-matroska:*,http-get:*:video/x-ms-wmv:*,http-get:*:video/wtv:*,http-get:*:audio/mpeg:*,http-get:*:audio/mp3:*,http-get:*:audio/mp4:*,http-get:*:audio/x-ms-wma*,http-get:*:audio/wav:*,http-get:*:audio/L16:*,http-get:*image/jpeg:*,http-get:*image/png:*,http-get:*image/gif:*,http-get:*image/tiff:*
+
+
+
+fBcwHw
+
+
+# Process to Prepare Volumio & Engram stuff
+
+- Looks like we need Python3, PIP3 installed before we can do anything else (https://projects.raspberrypi.org/en/projects/generic-python-install-python3)
+- Might want to upgrade the OS to the latest version (not sure if this is neccessary)
+- Install Python [https://learn.adafruit.com/circuitpython-on-raspberrypi-linux/installing-circuitpython-on-raspberry-pi](using the following link)
+- 
+
+
+- Should try and add an interface that possibly shows a progress bar that suggests the Engram is decoding, might be cute.
+- Need to install NodeJS to get everything working, duh!
+- Will need to install `nvm` too
+
+
+X-Plex-Token=gsJZhghqCksrXBNXjPac
+
+Current Session : http://192.168.1.81:32400/status/sessions?X-Plex-Token=gsJZhghqCksrXBNXjPac
